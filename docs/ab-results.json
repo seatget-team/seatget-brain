@@ -1,0 +1,49 @@
+{
+  "serviceRevision": "2eaa7161fc5082d5ea94c8e4ce88ad7db0434d6b",
+  "brainRevision": "02237928a8e871b2bc3d3bc8203529b41d593c75",
+  "checks": [
+    {
+      "id": "mvp",
+      "label": "첫 시연 범위",
+      "a": true,
+      "b": true
+    },
+    {
+      "id": "adr",
+      "label": "DB 선택 근거",
+      "a": true,
+      "b": true
+    },
+    {
+      "id": "experiment",
+      "label": "부하 비교 조건",
+      "a": true,
+      "b": true
+    },
+    {
+      "id": "codex",
+      "label": "Codex 공통 지침",
+      "a": false,
+      "b": true
+    },
+    {
+      "id": "claude",
+      "label": "Claude Code 공통 지침",
+      "a": false,
+      "b": true
+    },
+    {
+      "id": "pin",
+      "label": "고정 커밋 및 생성본 일치",
+      "a": false,
+      "b": true
+    }
+  ],
+  "driftCheck": {
+    "clean": 0,
+    "afterEdit": 1,
+    "resync": 0,
+    "afterResync": 0,
+    "restored": true
+  }
+}
